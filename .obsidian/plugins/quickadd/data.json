@@ -1,0 +1,316 @@
+{
+  "choices": [
+    {
+      "id": "a2a27a8d-9f59-4e64-9559-99fe95865a5b",
+      "name": "New local blog post",
+      "type": "Macro",
+      "command": true,
+      "macroId": "7721721d-156a-4814-bf7f-ceba41049008"
+    },
+    {
+      "id": "cebfa774-b0a1-4c93-a57a-27064fd743a0",
+      "name": "New external blog post",
+      "type": "Macro",
+      "command": true,
+      "macroId": "ea18921d-8e4a-4d65-9f3d-aa877df5f833"
+    },
+    {
+      "id": "75dbca3c-0f1d-4dd0-9c29-e547a79c9b60",
+      "name": "New course",
+      "type": "Macro",
+      "command": true,
+      "macroId": "5deef472-f8ec-46fa-9491-f4f994f59fb4"
+    },
+    {
+      "id": "4e75188c-e8c4-47a0-9169-83c973ec0b11",
+      "name": "New talk",
+      "type": "Macro",
+      "command": true,
+      "macroId": "40311bbf-a8e8-4cc9-be25-412aece9d819"
+    },
+    {
+      "id": "ddaaa9c2-785d-4d6f-953d-a0f6a5ee0815",
+      "name": "New video",
+      "type": "Macro",
+      "command": true,
+      "macroId": "e7e6ea50-908f-45d4-990c-8943613a55fa"
+    }
+  ],
+  "macros": [
+    {
+      "name": "MACRO: New local blog post",
+      "id": "7721721d-156a-4814-bf7f-ceba41049008",
+      "commands": [
+        {
+          "name": "Local blog title:",
+          "type": "NestedChoice",
+          "id": "8d5c38ed-777e-4c82-9d4e-9f38513beaa0",
+          "choice": {
+            "id": "1097ad0b-ee71-4662-8da2-fa1ea5174728",
+            "name": "Local blog title:",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/local-blog.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "index"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "content/blog/{{name}}"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        },
+        {
+          "name": "slugify",
+          "type": "UserScript",
+          "id": "80779146-ec21-4228-b12c-075f9a11dbe2",
+          "path": "slugify.js",
+          "settings": {
+            "Type": "Folder"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "MACRO: New external blog post",
+      "id": "ea18921d-8e4a-4d65-9f3d-aa877df5f833",
+      "commands": [
+        {
+          "name": "External blog title:",
+          "type": "NestedChoice",
+          "id": "ab1ef4c3-ecbc-4eb5-885b-00606e164769",
+          "choice": {
+            "id": "3b1e5e6b-2391-4381-8b0e-081d4df58a60",
+            "name": "External blog title:",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/external-blog.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{name}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "content/blog"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        },
+        {
+          "name": "slugify",
+          "type": "UserScript",
+          "id": "e2d86ea1-7b93-440a-b29f-1300089cfa80",
+          "path": "slugify.js",
+          "settings": {
+            "Type": "File"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "MACRO: New course",
+      "id": "5deef472-f8ec-46fa-9491-f4f994f59fb4",
+      "commands": [
+        {
+          "name": "Course title:",
+          "type": "NestedChoice",
+          "id": "04baecc2-7609-4454-a13e-9e6971389805",
+          "choice": {
+            "id": "2a8e2d7f-b5b7-4ae8-b2c5-76429830caff",
+            "name": "Course title:",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/course.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{name}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "content/courses"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        },
+        {
+          "name": "slugify",
+          "type": "UserScript",
+          "id": "265e5e36-97e4-4016-a89b-e46f29434914",
+          "path": "slugify.js",
+          "settings": {
+            "Type": "File"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "MACRO: New talk",
+      "id": "40311bbf-a8e8-4cc9-be25-412aece9d819",
+      "commands": [
+        {
+          "name": "Talk title:",
+          "type": "NestedChoice",
+          "id": "dea3ce49-36c8-4563-ae5a-d93a3e119a72",
+          "choice": {
+            "id": "e7f9813a-4178-4738-96b7-620d99012683",
+            "name": "Talk title:",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/talk.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{name}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "content/talks"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        },
+        {
+          "name": "slugify",
+          "type": "UserScript",
+          "id": "7dbecaa9-dc81-4503-8675-66c9bdd2804c",
+          "path": "slugify.js",
+          "settings": {
+            "Type": "File"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "MACRO: new video",
+      "id": "e7e6ea50-908f-45d4-990c-8943613a55fa",
+      "commands": [
+        {
+          "name": "Video title:",
+          "type": "NestedChoice",
+          "id": "5a29bea6-bf80-4928-9fe0-6df3eca58737",
+          "choice": {
+            "id": "e97ef47d-7ca5-4933-8ad6-97d5c4edcc87",
+            "name": "Video title:",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/video.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{name}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "content/videos"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        },
+        {
+          "name": "slugify",
+          "type": "UserScript",
+          "id": "c8a7729b-0dbd-4171-b8f9-bf4caa2d758f",
+          "path": "slugify.js",
+          "settings": {
+            "Type": "File"
+          }
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "Templates",
+  "announceUpdates": true,
+  "version": "1.6.1",
+  "disableOnlineFeatures": true,
+  "ai": {
+    "OpenAIApiKey": "",
+    "defaultModel": "Ask me",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true
+  }
+}

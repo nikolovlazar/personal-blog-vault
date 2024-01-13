@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "9530b29a4bec620c",
+    "type": "split",
+    "children": [
+      {
+        "id": "65bfeab9b5ec19eb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "12f709a03e68390c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/video.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "f8e409ff04c0ae8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/videos/a-lazy-mans-obsidian-astro-workflow-integration.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5e8c5c352ff19b6c",
+    "type": "split",
+    "children": [
+      {
+        "id": "17a44fc13142170d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3eaf5e023613088e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0b58c5e396200369",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 290.5004348754883
+  },
+  "right": {
+    "id": "3958537ae4e9f49a",
+    "type": "split",
+    "children": [
+      {
+        "id": "8fa17997b35ad7de",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8d25438c286fdbca",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/videos/a-lazy-mans-obsidian-astro-workflow-integration.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "94ef6dfa81d4bbd1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "content/videos/a-lazy-mans-obsidian-astro-workflow-integration.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "82dfa7168493b41a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "558f75028c3bb37f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/videos/a-lazy-mans-obsidian-astro-workflow-integration.md"
+              }
+            }
+          },
+          {
+            "id": "9e21be02d43f2a94",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "bdb59b53c4723147",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "f8e409ff04c0ae8c",
+  "lastOpenFiles": [
+    "Templates/video.md",
+    "content/videos/a-lazy-mans-obsidian-astro-workflow-integration.md",
+    "content/videos/css-container-queries-in-5-minutes.md",
+    "Templates/talk.md",
+    "Templates/local-blog.md",
+    "Templates/external-blog.md",
+    "Templates/course.md",
+    "content/talks/android-worldwide-mobile-app-monitoring-101.md",
+    "content/courses/build-a-full-stack-block-with-astro.md",
+    "content/blog/difference-between-api-latency-response-time.md",
+    "content/blog/custom-layouts-in-nextjs/index.md",
+    "templates/local-blog.md",
+    "Templates",
+    "templates/loca",
+    "content/blog/distributed-tracing-in-nextjs/index.md",
+    "content/talks/how-to-be-awesome-at-astro.md",
+    "content/blog/this-is-going-to-be-published-on-my-website/index.md",
+    "content/blog/this-is-going-to-be-published-on-my-website",
+    "content/blog/i-published-this-one-on-a-different-website.md",
+    "content/blog/This is going to be published on my website",
+    "content/videos/finally-configured-nvim-dap-debug-nodejs.md",
+    "content/videos/neat-way-update-npm-packages-neovim.md",
+    "content/videos/css-nesting-in-5-minutes.md",
+    "content/blog/creating-and-using-api-routes-in-nextjs/index.md",
+    "content/blog/generating-blur-for-dynamic-images-nextjs/index.md",
+    "content/blog/using-nextjs-server-side-rendering-method/index.md",
+    "content/blog/using-nextjs-static-generation-method/index.md",
+    "content/blog/the-sickest-astro-content-authoring-workflow/index.md",
+    "content/blog/the-sickest-astro-content-authoring-workflow/astro-logo-light-gradient.svg",
+    "content/blog/the-sickest-astro-content-authoring-workflow",
+    "content/blog/The sickest Astro content authoring workflow",
+    "content/blog/end-to-end-monitoring-for-web-and-mobile-applications-with-sentry.md",
+    "content/blog/iam-postirano-nekoj-na-druga-strana.md",
+    "content/blog/tips-for-react",
+    "content/blog/Tips for React",
+    "content/blog/using-nextjs-static-generation-method",
+    "content/blog/using-nextjs-server-side-rendering-method",
+    "content/blog/rodecaster-pro-review/rodecaster-pro.jpg",
+    "content/blog/improving-chakra-ui-page-speed/old-metrics.png",
+    "content/blog/improving-chakra-ui-page-speed/new-metrics.png",
+    "content/blog/improving-chakra-ui-page-speed/network-payloads.png",
+    "content/blog/distributed-tracing-in-nextjs/distributed-tracing-sentry-dashboard.png",
+    "content/blog/distributed-tracing-in-nextjs/diagram-transaction-trace.png",
+    "content/blog/distributed-tracing-in-nextjs/diagram-transaction-spans.png",
+    "nikolovlazar.com/assets/blog/distributed-tracing-sentry-dashboard.png",
+    "nikolovlazar.com/assets/blog/diagram-transaction-trace.png"
+  ]
+}
