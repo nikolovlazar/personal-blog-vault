@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/videos/a-lazy-mans-obsidian-astro-workflow-integration.md",
+                "file": "Templates/course.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "d779bc59a19f4d48",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -90,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/videos/a-lazy-mans-obsidian-astro-workflow-integration.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/videos/a-lazy-mans-obsidian-astro-workflow-integration.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/videos/a-lazy-mans-obsidian-astro-workflow-integration.md"
+                "file": "README.md"
               }
             }
           },
@@ -169,15 +181,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f8e409ff04c0ae8c",
+  "active": "d779bc59a19f4d48",
   "lastOpenFiles": [
+    "Templates/course.md",
+    "README.md",
+    "Templates/external-blog.md",
+    "Templates/local-blog.md",
+    "Templates/talk.md",
     "Templates/video.md",
     "content/videos/a-lazy-mans-obsidian-astro-workflow-integration.md",
     "content/videos/css-container-queries-in-5-minutes.md",
-    "Templates/talk.md",
-    "Templates/local-blog.md",
-    "Templates/external-blog.md",
-    "Templates/course.md",
     "content/talks/android-worldwide-mobile-app-monitoring-101.md",
     "content/courses/build-a-full-stack-block-with-astro.md",
     "content/blog/difference-between-api-latency-response-time.md",
@@ -203,7 +216,6 @@
     "content/blog/the-sickest-astro-content-authoring-workflow",
     "content/blog/The sickest Astro content authoring workflow",
     "content/blog/end-to-end-monitoring-for-web-and-mobile-applications-with-sentry.md",
-    "content/blog/iam-postirano-nekoj-na-druga-strana.md",
     "content/blog/tips-for-react",
     "content/blog/Tips for React",
     "content/blog/using-nextjs-static-generation-method",
